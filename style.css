@@ -143,4 +143,21 @@
     border-radius: 5px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .car-container {
+        top: 25%; /* Mobilde biraz daha yukarı taşıyabilirsiniz */
+        width: 30%;
+    }
+
+    .comments-container {
+        top: 60%;
+        width: 90%;
+    }
+
+    .qr-code-container {
+        top: 85%;
+        left: 80%;
+        width: 15%;
+    }
+}
 
